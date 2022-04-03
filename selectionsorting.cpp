@@ -23,7 +23,7 @@ void sorting(int arr[],int size){
    }
      for (int i = 0; i < size; i++)
      {
-        cout<< arr[i];
+        cout<< arr[i]<<" ";
      }
      
   
@@ -33,7 +33,7 @@ void sorting(int arr[],int size){
 int main(){
 
 
-  int box[5]={2,4,1,0,20};
+  int box[5]={2,3,4,10,20};
   sorting(box,5);
 
 
